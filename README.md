@@ -1,16 +1,20 @@
-# React + Vite
+# Sarra Rabai - Multi-Language Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Modern, responsive, multi-language portfolio built with **React.js**, **Vite**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+## Features
+- **Multi-Language Support:** English, French, Arabic (RTL), and German using `i18next`.
+- **Theme Toggle:** Dark and Light mode.
+- **Professional Resume Sections:** About, Experience, Featured Projects, Technical Skills, Education, Awards, and Contact Form.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React.js / Vite
+- Tailwind CSS
+- Lucide Icons
+- i18next
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Getting Started Locally
+```bash
+npm install
+npm run dev
+```
